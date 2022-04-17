@@ -1,0 +1,19 @@
+literally nama itu "Donny"
+literally peran itu "Ksatria"
+
+kalo nama itu ""
+    spill "Isi nama dulu gan"
+perhaps peran itu ""
+    spill "Isi peran dulu gan"
+kalogak
+    kalo peran itu "Penyihir"
+        spill "Selamat datang " + nama
+        spill "Halo, "+nama+". Peran kamu adalah "+peran+". Ciptakan keajaiban yang membantu kemenanganmu!"
+    perhaps peran itu "Ksatria"
+        spill "Selamat datang " + nama
+        spill "Halo, "+nama+". Peran kamu adalah "+peran+". Kamu dapat menyerang dengan senjatamu." 
+    perhaps peran itu "Tabib"
+        spill "Selamat datang " + nama
+        spill "Halo, "+nama+". Peran kamu adalah "+peran+". Kamu akan membantu temanmu yang terluka."
+    udahan
+udahan
